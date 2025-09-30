@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Austin Kenyon
+# DATE: 09/30/2025
+# BRIEF DESCRIPTION:  Converting Celsius to Fahrenheit while using if else statements.
 
 
 
@@ -16,7 +16,21 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
-
+print("===== Temperature Converter =====")
+print()
+print("  1. Convert from Celsius to Fahrenheit")
+print("  2. Convert from Fahrenheit to Celsius")
+print()
+choice = int(input("Please choose from the above menu: "))
+temp = float(input("Enter a temperature to convert: "))
+print()
+if choice == 1:
+    f = (temp * 9/5) + 32
+    print(f"{temp} degrees Celsius is {f} degrees Fahrenheit.")
+else:
+    choice == 2
+    c = (temp - 32) * 5/9
+    print(f"{temp} degrees Fahrenheit is {c} degrees Celsius.")
 
 
 
@@ -92,6 +106,7 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
+I was not aware you could use floats in else if statements.
 
 
 
